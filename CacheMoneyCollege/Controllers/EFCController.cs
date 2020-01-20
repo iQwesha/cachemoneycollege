@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CacheMoneyCollege
 {
-    public class EnrollmentController : Controller
+    public class EFCController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()

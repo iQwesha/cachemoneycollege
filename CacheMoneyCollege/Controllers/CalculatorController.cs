@@ -8,11 +8,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CacheMoneyCollege
 {
-    public class HomeController : Controller
+    public class CalculatorController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
         {
+            
             return View();
         }
     }
